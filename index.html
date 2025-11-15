@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Quiz sull'Intelligenza Artificiale</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 Mini-Quiz sull'Intelligenza Artificiale</h1>
+            <p>Scopri quanto ne sai sull'IA!</p>
+        </header>
+
+        <main>
+            <div class="quiz-intro">
+                <h2>Benvenuto al Quiz sull'IA!</h2>
+                <p>Rispondi a 5 domande sull'intelligenza artificiale. Le domande saranno in ordine casuale ogni volta! Premi il pulsante per iniziare!</p>
+                <button onclick="startQuiz()" id="startBtn" class="btn-primary">Inizia Quiz</button>
+            </div>
+
+            <div class="quiz-results" id="results" style="display: none;">
+                <h2>Risultati del Quiz</h2>
+                <div id="finalScore"></div>
+                <button onclick="restartQuiz()" class="btn-secondary">Riprova</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Quiz creato da: Lotito Andrea, Smahi Kawthar, Ouni Yasser</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
